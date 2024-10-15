@@ -83,11 +83,11 @@ Oppia's platform is structured around a monolithic architecture (Dev Server hand
 
 1. User Interface: Users interact with Oppia via a browser, sending HTTP requests to the Oppia Dev Server.
 2. Oppia Dev Server: Acts as the central hub, processing user requests and managing data flow between frontend and backend services. It retrieves data from:
-	   - Cloud Datastore for persistent storage of lessons and user data.
-	   - Redis for quick caching of frequently accessed data.
-	   - Elasticsearch for fast search queries (indexing).
-	   - Firebase Emulator for real-time services during development.
-3. Frontend Services: 
+     - Cloud Datastore for persistent storage of lessons and user data.
+    - Redis for quick caching of frequently accessed data.
+    - Elasticsearch for fast search queries (indexing).
+    - Firebase Emulator for real-time services during development.
+4. Frontend Services: 
    - Webpack Compiler and Angular-Build compile and optimize the user-facing application, delivering it to the browser efficiently.
 
 ![services](img/oppia-technologies-interactions.png)
