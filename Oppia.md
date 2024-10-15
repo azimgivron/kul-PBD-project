@@ -71,8 +71,6 @@ The diagram represents the data flow and interactions between a user device, the
 6. API Layer: Handles requests and data exchange between different systems, such as fetching content or progress data from external services.
 7. External Services: Includes systems like email notifications triggered by the backend.
 
-Overall, this system showcases how data moves from the user's interaction point to backend services, with additional layers for analytics and external integrations.
-
 **User-Platform Interactions**
 
 The diagram outlines how users interact with the Oppia platform. Users either log in or create an account and can start an educational "exploration." They interact by submitting answers, receiving feedback, and browsing content. Logged-in users can track progress, manage settings, and contribute by submitting new explorations. Data from interactions is collected for analytics to enhance the learning experience. The process focuses on user-driven exploration and content contribution.
@@ -89,6 +87,7 @@ Oppia's platform is structured around a monolithic architecture (Dev Server hand
 	   - Redis for quick caching of frequently accessed data.
 	   - Elasticsearch for fast search queries (indexing).
 	   - Firebase Emulator for real-time services during development.
-1. Frontend Services: 
+3. Frontend Services: 
    - Webpack Compiler and Angular-Build compile and optimize the user-facing application, delivering it to the browser efficiently.
+
 ![services](img/oppia-technologies-interactions.png)
